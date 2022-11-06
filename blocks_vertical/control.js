@@ -379,81 +379,81 @@ Blockly.Blocks['control_for_each'] = {
   }
 };
 
-Blockly.Blocks['control_start_as_clone'] = {
-  /**
-   * Block for "when I start as a clone" hat.
-   * @this Blockly.Block
-   */
-  init: function() {
-    this.jsonInit({
-      "id": "control_start_as_clone",
-      "message0": Blockly.Msg.CONTROL_STARTASCLONE,
-      "args0": [
-      ],
-      "category": Blockly.Categories.control,
-      "extensions": ["colours_control", "shape_hat"]
-    });
-  }
-};
+// Blockly.Blocks['control_start_as_clone'] = {
+//   /**
+//    * Block for "when I start as a clone" hat.
+//    * @this Blockly.Block
+//    */
+//   init: function() {
+//     this.jsonInit({
+//       "id": "control_start_as_clone",
+//       "message0": Blockly.Msg.CONTROL_STARTASCLONE,
+//       "args0": [
+//       ],
+//       "category": Blockly.Categories.control,
+//       "extensions": ["colours_control", "shape_hat"]
+//     });
+//   }
+// };
 
-Blockly.Blocks['control_create_clone_of_menu'] = {
-  /**
-   * Create-clone drop-down menu.
-   * @this Blockly.Block
-   */
-  init: function() {
-    this.jsonInit({
-      "message0": "%1",
-      "args0": [
-        {
-          "type": "field_dropdown",
-          "name": "CLONE_OPTION",
-          "options": [
-            [Blockly.Msg.CONTROL_CREATECLONEOF_MYSELF, '_myself_']
-          ]
-        }
-      ],
-      "extensions": ["colours_control", "output_string"]
-    });
-  }
-};
+// Blockly.Blocks['control_create_clone_of_menu'] = {
+//   /**
+//    * Create-clone drop-down menu.
+//    * @this Blockly.Block
+//    */
+//   init: function() {
+//     this.jsonInit({
+//       "message0": "%1",
+//       "args0": [
+//         {
+//           "type": "field_dropdown",
+//           "name": "CLONE_OPTION",
+//           "options": [
+//             [Blockly.Msg.CONTROL_CREATECLONEOF_MYSELF, '_myself_']
+//           ]
+//         }
+//       ],
+//       "extensions": ["colours_control", "output_string"]
+//     });
+//   }
+// };
 
-Blockly.Blocks['control_create_clone_of'] = {
-  /**
-   * Block for "create clone of..."
-   * @this Blockly.Block
-   */
-  init: function() {
-    this.jsonInit({
-      "id": "control_start_as_clone",
-      "message0": Blockly.Msg.CONTROL_CREATECLONEOF,
-      "args0": [
-        {
-          "type": "input_value",
-          "name": "CLONE_OPTION"
-        }
-      ],
-      "category": Blockly.Categories.control,
-      "extensions": ["colours_control", "shape_statement"]
-    });
-  }
-};
+// Blockly.Blocks['control_create_clone_of'] = {
+//   /**
+//    * Block for "create clone of..."
+//    * @this Blockly.Block
+//    */
+//   init: function() {
+//     this.jsonInit({
+//       "id": "control_start_as_clone",
+//       "message0": Blockly.Msg.CONTROL_CREATECLONEOF,
+//       "args0": [
+//         {
+//           "type": "input_value",
+//           "name": "CLONE_OPTION"
+//         }
+//       ],
+//       "category": Blockly.Categories.control,
+//       "extensions": ["colours_control", "shape_statement"]
+//     });
+//   }
+// };
 
-Blockly.Blocks['control_delete_this_clone'] = {
-  /**
-   * Block for "delete this clone."
-   * @this Blockly.Block
-   */
-  init: function() {
-    this.jsonInit({
-      "message0": Blockly.Msg.CONTROL_DELETETHISCLONE,
-      "args0": [
-      ],
-      "category": Blockly.Categories.control,
-      "extensions": ["colours_control", "shape_end"]
-    });
-  }
-};
+// Blockly.Blocks['control_delete_this_clone'] = {
+//   /**
+//    * Block for "delete this clone."
+//    * @this Blockly.Block
+//    */
+//   init: function() {
+//     this.jsonInit({
+//       "message0": Blockly.Msg.CONTROL_DELETETHISCLONE,
+//       "args0": [
+//       ],
+//       "category": Blockly.Categories.control,
+//       "extensions": ["colours_control", "shape_end"]
+//     });
+//   }
+// };
 
 Blockly.Blocks['control_get_counter'] = {
   /**

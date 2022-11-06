@@ -46,9 +46,7 @@ Blockly.Blocks['matrix'] = {
           "name": "MATRIX"
         }
       ],
-      "outputShape": Blockly.OUTPUT_SHAPE_ROUND,
-      "output": "Number",
-      "extensions": ["colours_pen"]
+      "category": Blockly.Categories.pico,
     });
   }
 };
