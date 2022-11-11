@@ -5469,7 +5469,19 @@ Blockly.ScratchMsgs.locales["en"] =
     "NEW_BROADCAST_MESSAGE": "New message",
     "NEW_BROADCAST_MESSAGE_TITLE": "New message name:",
     "BROADCAST_MODAL_TITLE": "New Message",
-    "DEFAULT_BROADCAST_MESSAGE_NAME": "message1"
+    "DEFAULT_BROADCAST_MESSAGE_NAME": "message1",
+		"TURN_LED_OFF": "%1 %2 Turn LED %3 off",
+		"LED_STATUS": "%1 %2 Is LED %3 on?",
+		"TURN_LED_ON": "%1 %2 Turn LED %3 on",
+		"SET_LED_BRIGHTNESS": "%1 %2 Set LED %3 brightness to %4",
+		"GET_LED_BRIGHTNESS": "%1 %2 LED %3 brightness",
+		"TURN_INTERNAL_LED_OFF": "%1 %2 Turn internal LED off",
+		"INTERNAL_LED_STATUS": "%1 %2 Is internal LED on?",
+		"TURN_INTERNAL_LED_ON": "%1 %2 Turn internal LED on",
+		"BUTTON_STATUS": "%1 %2 Is button %3 pressed down?",
+		"PRINT": "Print %1 to the console",
+		"READ_CONSOLE": "Read text from console with request: %1",
+		"PYTHON": "Run python code %1",
 };
 
 Blockly.ScratchMsgs.locales["es"] =
