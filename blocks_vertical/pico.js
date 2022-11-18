@@ -213,3 +213,27 @@ Blockly.Blocks["pico_buttonstatus"] = {
 		})
 	}
 };
+Blockly.Blocks["pico_potentiometer"] = {
+	init() {
+		this.jsonInit({
+			"message0": Blockly.Msg.POTENTIOMETER,
+			"args0": [
+				{
+					"type": "field_image",
+					"src": Blockly.mainWorkspace.options.pathToMedia + "extensions/poti.svg",
+					"width": 40,
+					"height": 40,
+				},
+				{
+					"type": "field_vertical_separator"
+				},
+        {
+          "type": "input_value",
+          "name": "PIN"
+        }
+      ],
+      "category": Blockly.Categories.more,
+      "extensions": ["colours_more", "output_number", "scratch_extension"]
+		})
+	}
+};
