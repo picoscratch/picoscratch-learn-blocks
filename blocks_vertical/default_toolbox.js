@@ -564,32 +564,12 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
 	'<category name="Pico" id="pico" colour="#FF6680" secondaryColour="#FF4D6A" ' +
     'iconURI="./media/extensions/wedo2-block-icon.svg" showStatusButton="false">' +
     '<block type="pico_ledoff" id="pico_ledoff">' +
-      '<value name="PIN">' +
-				'<shadow type="math_number">' +
-					'<field name="NUM">0</field>' +
-				'</shadow>' +
-      '</value>' +
     '</block>' +
 		'<block type="pico_ledon" id="pico_ledon">' +
-      '<value name="PIN">' +
-				'<shadow type="math_number">' +
-					'<field name="NUM">0</field>' +
-				'</shadow>' +
-      '</value>' +
     '</block>' +
 		'<block type="pico_ledstatus" id="pico_ledstatus">' +
-      '<value name="PIN">' +
-				'<shadow type="math_number">' +
-					'<field name="NUM">0</field>' +
-				'</shadow>' +
-      '</value>' +
     '</block>' +
 		'<block type="pico_setledbrightness" id="pico_setledbrightness">' +
-			'<value name="PIN">' +
-				'<shadow type="math_number">' +
-					'<field name="NUM">0</field>' +
-				'</shadow>' +
-			'</value>' +
 			'<value name="BRIGHTNESS">' +
 				'<shadow type="math_number">' +
 					'<field name="NUM">255</field>' +
@@ -597,11 +577,6 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
 			'</value>' +
     '</block>' +
 		'<block type="pico_ledbrightness" id="pico_ledbrightness">' +
-			'<value name="PIN">' +
-				'<shadow type="math_number">' +
-					'<field name="NUM">0</field>' +
-				'</shadow>' +
-			'</value>' +
     '</block>' +
 		'<block type="pico_internalledoff" id="pico_internalledoff">' +
     '</block>' +
@@ -610,11 +585,6 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
 		'<block type="pico_internalledstatus" id="pico_internalledstatus">' +
     '</block>' +
 		'<block type="pico_buttonstatus" id="pico_ledon">' +
-      '<value name="PIN">' +
-				'<shadow type="math_number">' +
-					'<field name="NUM">0</field>' +
-				'</shadow>' +
-      '</value>' +
     '</block>' +
   '</category>' +
 	'<category name="Debug" id="debug" colour="#29beb8" secondaryColour="#29ebe8" ' +

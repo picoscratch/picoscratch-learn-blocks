@@ -18,11 +18,7 @@ Blockly.Blocks["pico_ledoff"] = {
 				},
 				{
 					"type": "field_vertical_separator"
-				},
-        {
-          "type": "input_value",
-          "name": "PIN"
-        },
+				}
       ],
       "category": Blockly.Categories.more,
       "extensions": ["colours_more", "shape_statement", "scratch_extension"]
@@ -42,11 +38,7 @@ Blockly.Blocks["pico_ledstatus"] = {
 				},
 				{
 					"type": "field_vertical_separator"
-				},
-        {
-          "type": "input_value",
-          "name": "PIN"
-        },
+				}
       ],
       "category": Blockly.Categories.more,
       "extensions": ["colours_more", "output_boolean", "scratch_extension"]
@@ -66,11 +58,7 @@ Blockly.Blocks["pico_ledon"] = {
 				},
 				{
 					"type": "field_vertical_separator"
-				},
-        {
-          "type": "input_value",
-          "name": "PIN"
-        },
+				}
       ],
       "category": Blockly.Categories.more,
       "extensions": ["colours_more", "shape_statement", "scratch_extension"]
@@ -91,10 +79,6 @@ Blockly.Blocks["pico_setledbrightness"] = {
 				{
 					"type": "field_vertical_separator"
 				},
-        {
-          "type": "input_value",
-          "name": "PIN"
-        },
         {
           "type": "input_value",
           "name": "BRIGHTNESS"
@@ -118,11 +102,7 @@ Blockly.Blocks["pico_ledbrightness"] = {
 				},
 				{
 					"type": "field_vertical_separator"
-				},
-        {
-          "type": "input_value",
-          "name": "PIN"
-        }
+				}
       ],
       "category": Blockly.Categories.more,
       "extensions": ["colours_more", "output_number", "scratch_extension"]
@@ -202,11 +182,7 @@ Blockly.Blocks["pico_buttonstatus"] = {
 				},
 				{
 					"type": "field_vertical_separator"
-				},
-        {
-          "type": "input_value",
-          "name": "PIN"
-        },
+				}
       ],
       "category": Blockly.Categories.more,
       "extensions": ["colours_more", "output_boolean", "scratch_extension"]
