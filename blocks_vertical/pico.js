@@ -202,11 +202,7 @@ Blockly.Blocks["pico_potentiometer"] = {
 				},
 				{
 					"type": "field_vertical_separator"
-				},
-        {
-          "type": "input_value",
-          "name": "PIN"
-        }
+				}
       ],
       "category": Blockly.Categories.more,
       "extensions": ["colours_more", "output_number", "scratch_extension"]
